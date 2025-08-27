@@ -70,5 +70,5 @@ echo "##########################################################################
 
 else
 echo "File Doesnt't Exits"
-echo "EX. ./bash.sh <filename>"
+echo "EX. ./subdomains_enumeration.sh <filename>"
 fi
