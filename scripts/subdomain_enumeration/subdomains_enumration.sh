@@ -5,8 +5,8 @@ file=$1
 
 if [ -f "$file" ]
 then
-shrewdeye_tool() {
 
+shrewdeye_tool() {
 echo "################################################### [+]Starting Shrewdeye ##############################################################"
 while read -r wildcard
 do
