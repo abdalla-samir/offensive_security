@@ -26,4 +26,4 @@ The challenge provides php code with a condition that takes the value from the `
 ```
 
 ## Sceenshot
-![screenshot](https://raw.githubusercontent.com/abdalla-samir/offensive_security/main/CTFs/web_security/t_jungle_challenge/writeup_images/t_jungle_challenge.png)
+![screenshot](https://raw.githubusercontent.com/abdalla-samir/offensive_security/main/CTFs/web_security/T-jungle/writeup_images/t_jungle_challenge.png)
