@@ -1,6 +1,6 @@
 # CyberTalents  - This is Sparta - Web Security
 
-# Challenge Description
+## Challenge Description
 The challenge provided an HTML page with an obfuscated JavaScript snippet. The goal was to find the correct username and password without brute-forcing or guessing.
 
 ## Tools Used
