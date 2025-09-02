@@ -6,13 +6,12 @@
 ```
 
 ## Description
-- A command-line tool to encode or decode a file's content using hex, base64, or binary formats.
-- It takes a given file and conver it's content into a given format, it simply can:
-	- Convert binary to plain text and vice versa
-	- Convert hex to plain text and vice versa
-	- Convert base64 to plain text and vice versa
-- By one script you can convert anything you want
-
+- A command-line tool to encode or decode a file's content using hex, base64, or binary formats.  
+- It takes a given file and converts its content into the chosen format. It can:  
+    - Convert binary to plain text and vice versa  
+    - Convert hex to plain text and vice versa  
+    - Convert base64 to plain text and vice versa  
+- With one script, you can convert anything you want.  
 
 ## Usage Example
 ```
