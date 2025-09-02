@@ -3,8 +3,6 @@
 ## Command
 ```
 ./smtp_user_enumeration <IP> <usernames.txt>
-
-Ex. ./smtp_user_enumeration 192.168.1.6 usernames.txt
 ```
 
 ## Description
@@ -14,3 +12,9 @@ Ex. ./smtp_user_enumeration 192.168.1.6 usernames.txt
 - For each user, it establishes a connection and send the following command to the SMTP server: `VRFY <username>`.
 - it then prints the result, indicating whether the user exists on the server or not.
 - If the IP is down, it gives the following error message: `Ping Failed: Provide a valid ip address`
+
+
+## Usage Example
+```
+./smtp_user_enumeration 192.168.1.6 usernames.txt
+```
