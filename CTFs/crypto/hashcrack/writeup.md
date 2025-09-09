@@ -6,10 +6,13 @@ The challenge required breaking three layers of password hashes in order: MD5, S
 ## Solution
 To solve the challenge, I wrote a python script to:
 
-1- read a wordlist containing common passwords `rockyou.txt`.
-2- Compute the hash of each password using `MD5`, `SHA-1` or `SHA-256`.
-3- Compare the computed hash with the target hash.
-4- finally print the password when a match is found
+   - Read a wordlist containing common passwords `rockyou.txt`.
+ 
+   - Compute the hash of each password using `MD5`, `SHA-1` or `SHA-256`.
+ 
+   - Compare the computed hash with the target hash.
+ 
+   - Finally, print the password when a match is found.
 
 ## Python Script
 ```
