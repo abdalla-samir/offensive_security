@@ -1,6 +1,6 @@
 # picoCTF - Based - General-skills
 
-# Challenge Description
+## Challenge Description
 To get the flag, you should go through three steps:
 1. The program gives you **binary data** and you convert it to word.
 2. The program gives you **octal data** and you convert it to word.
