@@ -6,7 +6,7 @@ parser.add_argument("-i","--input",required=True,help="the input hashed password
 parser.add_argument("-w","--wordlist",required=False,help="List of passwords")
 parser.add_argument("-o", "--output",required=False,help="The output file to save the results")
 parser.add_argument("-a","--attack",choices=["dictionary","rainbow","hybrid","bruteforce"],required=True,help="the type of cracking")
-parser.add_argument("-t","---type",choices=["md5","sha256","sha512","sha3_224","sha3_256","sha3_384","sha3_512","shake_128","shake_256"],required=True,help="the type of hash to crack")
+parser.add_argument("-t","--type",choices=["md5","sha256","sha512","sha3_224","sha3_256","sha3_384","sha3_512","shake_128","shake_256"],required=True,help="the type of hash to crack")
 args = parser.parse_args()
 
 hashed_password = open(args.input).read().split()
